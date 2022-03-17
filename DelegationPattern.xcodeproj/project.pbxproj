@@ -13,6 +13,8 @@
 		65F7DCC727E3C4A30052AEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F7DCC527E3C4A30052AEC4 /* Main.storyboard */; };
 		65F7DCC927E3C4A50052AEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F7DCC827E3C4A50052AEC4 /* Assets.xcassets */; };
 		65F7DCCC27E3C4A50052AEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F7DCCA27E3C4A50052AEC4 /* LaunchScreen.storyboard */; };
+		65F7DCD627E3C8310052AEC4 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7DCD427E3C8310052AEC4 /* VC2.swift */; };
+		65F7DCD727E3C8310052AEC4 /* VC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F7DCD527E3C8310052AEC4 /* VC2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65F7DCC827E3C4A50052AEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F7DCCB27E3C4A50052AEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65F7DCCD27E3C4A50052AEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F7DCD427E3C8310052AEC4 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		65F7DCD527E3C8310052AEC4 /* VC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VC2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		65F7DCBE27E3C4A30052AEC4 /* DelegationPattern */ = {
 			isa = PBXGroup;
 			children = (
+				65F7DCD327E3C8050052AEC4 /* SecondScreen */,
 				65F7DCBF27E3C4A30052AEC4 /* AppDelegate.swift */,
 				65F7DCC127E3C4A30052AEC4 /* SceneDelegate.swift */,
 				65F7DCC327E3C4A30052AEC4 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				65F7DCCD27E3C4A50052AEC4 /* Info.plist */,
 			);
 			path = DelegationPattern;
+			sourceTree = "<group>";
+		};
+		65F7DCD327E3C8050052AEC4 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				65F7DCD427E3C8310052AEC4 /* VC2.swift */,
+				65F7DCD527E3C8310052AEC4 /* VC2.xib */,
+			);
+			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				65F7DCCC27E3C4A50052AEC4 /* LaunchScreen.storyboard in Resources */,
 				65F7DCC927E3C4A50052AEC4 /* Assets.xcassets in Resources */,
 				65F7DCC727E3C4A30052AEC4 /* Main.storyboard in Resources */,
+				65F7DCD727E3C8310052AEC4 /* VC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				65F7DCC427E3C4A30052AEC4 /* ViewController.swift in Sources */,
 				65F7DCC027E3C4A30052AEC4 /* AppDelegate.swift in Sources */,
 				65F7DCC227E3C4A30052AEC4 /* SceneDelegate.swift in Sources */,
+				65F7DCD627E3C8310052AEC4 /* VC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
