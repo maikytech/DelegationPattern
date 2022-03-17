@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBAction func open2ndScreenPressed(_ sender: Any) {
         let vc = VC2()
+        vc.delegate = self
         navigationController?.present(vc, animated: true)
         
     }
@@ -21,7 +22,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+}
 
-
+extension ViewController: StringProtocol {
+    func didSelectString(_ string: String) {
+        stringSelectedLabel.text = string
+    }
 }
 
